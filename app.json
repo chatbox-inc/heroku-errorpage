@@ -1,0 +1,19 @@
+{
+  "name": "heroku-errorpage",
+  "scripts": {},
+  "env": {
+    "ERROR_PAGE_URL": {
+      "required": true
+    },
+    "MAINTENANCE_PAGE_URL": {
+      "required": true
+    }
+  },
+  "formation": {},
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ]
+}
